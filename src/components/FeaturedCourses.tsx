@@ -16,7 +16,6 @@ interface Course {
 
 function FeaturedCourses() {
     const featuredCourse = courseData.courses.filter((course: Course) => course.isFeatured)
-    console.log(featuredCourse);
 
     return (
         <div className="py-12 bg-gray-900 text-white">
