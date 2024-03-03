@@ -49,9 +49,9 @@ const featuredWebinars = [
 
 function UpcomingWebiner() {
     return (
-        <div className='p-12 bg-gray-900'>
+        <div className='py-12 px-4 md:p-12 bg-gray-900'>
             <div className='px-4 sm:px-6 flex flex-col gap-6 items-center'>
-                <div className='flex flex-col gap-4 items-center'>
+                <div className='flex flex-col gap-4 items-center text-center'>
                     <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Musical Journey</p>
                 </div>
