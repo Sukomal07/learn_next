@@ -40,7 +40,7 @@ function Footer() {
                 </div>
                 <div className='flex flex-col gap-4 items-center'>
                     <h1 className='text-white font-bold'>Follow Us</h1>
-                    <ul className='flex gap-3'>
+                    <ul className='flex flex-col gap-3'>
                         <li>
                             <Link href={'/'} target='_blank'>
                                 Facebook
